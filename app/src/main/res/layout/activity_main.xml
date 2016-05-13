@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:clipChildren="false"
         android:layout_centerInParent="true"
-        android:background="#aaf2cd11"
+        android:background="@color/colorPrimaryDark"
         >
         <android.support.v4.view.ViewPager
             android:id="@+id/id_viewpager"
@@ -21,6 +21,7 @@
             android:layout_height="360dp"
             android:layout_gravity="center"
             >
+            <!--android:clipChildren="false" 该属性的意思就是在子View进行绘制时不要去裁切它们的显示范围-->
         </android.support.v4.view.ViewPager>
 
     </FrameLayout>

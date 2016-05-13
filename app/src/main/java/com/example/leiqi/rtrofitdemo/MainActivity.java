@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
             mViewPager.setPageTransformer(true, new RotateDownPageTransformer(new AlphaPageTransformer()));
         }else if ("RotateDown and Alpha And ScaleIn".equals(title))
         {
-            mViewPager.setPageTransformer(true, new RotateDownPageTransformer(new AlphaPageTransformer(0.8f,new ScaleInTransformer())));
+            mViewPager.setPageTransformer(true, new RotateDownPageTransformer(new AlphaPageTransformer(0.5f,new ScaleInTransformer(0.3f))));
         }
 
         setTitle(title);

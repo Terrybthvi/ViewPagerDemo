@@ -29,7 +29,7 @@ public class AlphaPageTransformer extends BasePageTransformer {
         view.setScaleX( 0.999f);//hack
 
         if (position < -1)
-        { // [-Infinity,-1)
+        { // [-Infinity,-1]
             view.setAlpha(mMainAlpha);
         } else if (position <= 1)
         { // [-1,1]
